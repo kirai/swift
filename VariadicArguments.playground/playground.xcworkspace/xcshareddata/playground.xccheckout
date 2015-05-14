@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3B78F65A-2A00-4326-B678-97429FCA1C99</string>
+	<string>CF931F02-19D3-448F-B2A0-63BD3510545D</string>
 	<key>IDESourceControlProjectName</key>
 	<string>playground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>https://github.com/kirai/swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Experimento1.playground/playground.xcworkspace</string>
+	<string>VariadicArguments.playground/playground.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6AB37509F36CEA311370AD655D9374679E13C54C</key>
