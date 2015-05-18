@@ -88,7 +88,7 @@ var toppings = ["Pepperoni":0.25,
     "Green Peppers":0.03
 ]
 
-let piePrice:[String:Double] = ["Apple":3.99,"Raspberry":0.35]
+let piePrice:[String:Double] = ["Apple":3.99, "Raspberry":0.35]
 let numberOfSlices = 2.0
 let extPrice = piePrice["Apple"]! * numberOfSlices
 println("\(numberOfSlices) of Apple Pie is \(extPrice)")
@@ -102,4 +102,8 @@ for myKey  in toppings.keys{
     println("Toppings value: \(toppings[myKey]) ")
     toppings[myKey] = toppings[myKey]! * 1.10
 }
+
+
+
+
 
