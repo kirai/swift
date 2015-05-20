@@ -60,3 +60,9 @@ standard_deviation = calcStdDev(variance)
 println("The variance of the population age is \(standard_deviation)")
 
 // http://stackoverflow.com/questions/24004776/input-from-the-keyboard-in-command-line-application
+
+
+
+
+
+
