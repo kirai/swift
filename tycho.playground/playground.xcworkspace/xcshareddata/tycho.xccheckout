@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EA451329-87F3-4ED2-A533-667E884E2000</string>
+	<string>1DFB678A-1311-490B-9D57-BDCF3C0F2735</string>
 	<key>IDESourceControlProjectName</key>
-	<string>playground</string>
+	<string>tycho</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6AB37509F36CEA311370AD655D9374679E13C54C</key>
 		<string>https://github.com/kirai/swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>StatisticsPlay.playground/playground.xcworkspace</string>
+	<string>tycho.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6AB37509F36CEA311370AD655D9374679E13C54C</key>
-		<string>../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/kirai/swift.git</string>
