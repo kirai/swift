@@ -72,20 +72,21 @@ optionalDict["key1"] = nil // values can be empty
 var platforms = [
     "Apple": "iOS",
     "Google" : "Android",
-    "Microsoft" : "Windows Phone"
+    "Microsoft" : "Windows Phone",
+    "Microsoft2" : "Windows Phone"
 ]
-
 var ranking = [
     1: "Gold",
     2: "Silver",
     3: "Bronze"
     
 ]
-
 var toppings = ["Pepperoni":0.25,
     "Sausage":0.26,
     "Onions":0.02,
-    "Green Peppers":0.03
+    "Green Peppers":0.03,
+    "rr Green Peppers":0.03,
+    "rrr Green Peppers":0.02
 ]
 
 let piePrice:[String:Double] = ["Apple":3.99, "Raspberry":0.35]
@@ -100,8 +101,10 @@ for myValue  in toppings.values{
 //make a 10% price increase
 for myKey  in toppings.keys{
     println("Toppings value: \(toppings[myKey]) ")
-    toppings[myKey] = toppings[myKey]! * 1.10
+    toppings[myKey] = toppings[myKey]! * 3.10
 }
+
+
 
 
 
