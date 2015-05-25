@@ -16,10 +16,10 @@ func calcAvg(numbers: [Double]) -> Double {
 
 /*************************************************************/
 /* calcVar                                                   */
-/* Description: given a variance and an array of sample data */
-/* it calculates de variance                                 */
+/* Description: given an average and an array of sample data */
+/* it calculates de variance of the distribution             */
 /* Variance: Squared Distance to average averaged.           */
-/*            Square of volatility. Variances = σ^2          */
+/*           Square of volatility. Variance = σ^2            */
 /*************************************************************/
 func calcVar(numbers: [Double], avg: Double) -> Double {
 
@@ -38,14 +38,14 @@ func calcVar(numbers: [Double], avg: Double) -> Double {
 /* calcStdDev                                                */
 /* Description: calculates the standard deviation given      */
 /*              the variance                                 */
-/* Vloatility σ: square root of variance                     */
-/*            Square of volatility. Variances = σ^2          */
+/* Volatility σ: square root of variance                     */
+/*               (StdDev) σ = sqrt(Variance)                 */
 /*************************************************************/
 func calcStdDev(variance: Double) -> Double {
     return sqrt(variance)
 }
 
-var population: [Double] = [5, 6, 11, 13, 19, 20, 25, 26, 28, 37]
+var population: [Double] = [5, 6, 11, 13, 19, 20, 25, 26, 28, 37, 28, 90]
 var average: Double = 0.0
 var variance: Double = 0.0
 var standard_deviation: Double = 0.0
@@ -60,9 +60,5 @@ standard_deviation = calcStdDev(variance)
 println("The variance of the population age is \(standard_deviation)")
 
 // http://stackoverflow.com/questions/24004776/input-from-the-keyboard-in-command-line-application
-
-
-
-
-
-
+var input = NSString(data: NSFileHandle.fileHandleWithStandardInput().availableData, encoding:NSUTF8StringEncoding)
+println("The input is: \(input)")
