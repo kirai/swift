@@ -60,21 +60,19 @@ standard_deviation = calcStdDev(variance)
 println("The variance of the population age is \(standard_deviation)")
 
 // Getting data from google finance API
-let url = NSURL(string: "http://www.kirainet.com")
+// let url = NSURL(string: "http://www.kirainet.com")
 
-//  http://www.myplacesandme.com/wordpress/swift-app-tutorial-swiftstocks-tuples-switch-singleton-webservices-part-i/
+// Sample Stock app
+    //  http://www.myplacesandme.com/wordpress/swift-app-tutorial-swiftstocks-tuples-switch-singleton-webservices-part-i/
 
-//NSURLSession.sharedSession().dataTaskWithURL(NSURL(string: url)) { data, response, error in
-//   println(NSString(data: data, encoding: NSUTF8StringEncoding))
-//}.resume()
-
-//task.resume()
-
-// Getting data from Excel, csv, txt files
-
-
+// Hit API
+    // NSURLSession.sharedSession().dataTaskWithURL(NSURL(string: url)) { data, response, error in
+    //   println(NSString(data: data, encoding: NSUTF8StringEncoding))
+    // }.resume()
+    // task.resume()
+    // Getting data from Excel, csv, txt files
 
 // Getting data from standard output
-// http://stackoverflow.com/questions/24004776/input-from-the-keyboard-in-command-line-application
-// var input = NSString(data: NSFileHandle.fileHandleWithStandardInput().availableData, encoding:NSUTF8StringEncoding)
-// println("The input is: \(input)")
+    // http://stackoverflow.com/questions/24004776/input-from-the-keyboard-in-command-line-application
+    // var input = NSString(data: NSFileHandle.fileHandleWithStandardInput().availableData, encoding:NSUTF8StringEncoding)
+    // println("The input is: \(input)")
