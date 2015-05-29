@@ -20,8 +20,8 @@ class MainViewController: UIViewController, LineChartDelegate {
         view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-80-[label]", options: nil, metrics: nil, views: views))
         
         // simple arrays
-        var data: [CGFloat] = [3, 4, -2, 11, 13, 15]
-        var data2: [CGFloat] = [1, 3, 5, 13, 17, 20]
+        var data: [CGFloat] = [5, 10,5,2, -2, 11, 13, 15]
+        var data2: [CGFloat] = [7, 3,3, 6,  5, 13, 17, 20]
         
         // simple line with custom x axis labels
         var xLabels: [String] = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
