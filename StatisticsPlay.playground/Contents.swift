@@ -45,6 +45,7 @@ func calcStdDev(variance: Double) -> Double {
     return sqrt(variance)
 }
 
+
 var population: [Double] = [5, 6, 11, 13, 19, 20, 25, 26, 28, 37, 28, 90]
 var average: Double = 0.0
 var variance: Double = 0.0
