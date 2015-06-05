@@ -79,8 +79,8 @@ var ranking = [
     1: "Gold",
     2: "Silver",
     3: "Bronze"
-    
 ]
+
 var toppings = ["Pepperoni":0.25,
     "Sausage":0.26,
     "Onions":0.02,
@@ -89,9 +89,11 @@ var toppings = ["Pepperoni":0.25,
     "rrr Green Peppers":0.02
 ]
 
+
 let piePrice:[String:Double] = ["Apple":3.99, "Raspberry":0.35]
 let numberOfSlices = 2.0
 let extPrice = piePrice["Apple"]! * numberOfSlices
+
 println("\(numberOfSlices) of Apple Pie is \(extPrice)")
 
 for myValue  in toppings.values{
@@ -105,8 +107,6 @@ for myKey  in toppings.keys{
 }
 
 
-
-
-
+// REgression
 
 

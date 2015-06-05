@@ -64,7 +64,7 @@ println("The variance of the population age is \(standard_deviation)")
 // Try to put fat tails and chart, test fragility
 
 // Getting data from google finance API
-// let url = NSURL(string: "http://www.kirainet.com")
+    // let url = NSURL(string: "http://www.kirainet.com")
 
 // Sample Stock app
     //  http://www.myplacesandme.com/wordpress/swift-app-tutorial-swiftstocks-tuples-switch-singleton-webservices-part-i/
