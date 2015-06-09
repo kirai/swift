@@ -89,7 +89,7 @@ var toppings = ["Pepperoni":0.25,
     "rrr Green Peppers":0.02
 ]
 
-
+// bit changes start with 
 let piePrice:[String:Double] = ["Apple":3.99, "Raspberry":0.35]
 let numberOfSlices = 2.0
 let extPrice = piePrice["Apple"]! * numberOfSlices
@@ -109,4 +109,4 @@ for myKey  in toppings.keys{
 
 // REgression
 
-
+// little changes
