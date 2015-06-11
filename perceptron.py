@@ -4,22 +4,6 @@ from numpy import array, dot, random
 
 step_function = lambda x: 0 if x < 0 else 1
 
-#training_data = [
-#    (array([0,0,1]), 0),
-#    (array([0,1,1]), 1),
-#    (array([1,0,1]), 1),
-#    (array([1,1,1]), 1),
-#]
-
-#training_data = [
-#    (array([0,0,1]), 0),
-#	(array([0,0,2]), 0),
-#	(array([0,0,3]), 0),
-#    (array([0,1,1]), 1),
-#    (array([1,0,1]), 1),
-#    (array([1,1,1]), 1),
-#]
-
 training_data = [
     (array([0,0,1]), 0),
 	(array([0,0,2]), 0),
