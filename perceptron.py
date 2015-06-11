@@ -16,15 +16,16 @@ training_data = [
 w = random.rand(3)
 
 errors = []
-eta = 0.2
+eta = 0.1
 n = 100
 
 for i in xrange(n):
     x, expected = choice(training_data)
     result = dot(w, x)
     error = expected - step_function(result)
-    errors.append(error)
-    w += eta * error * x
+#   errors.append(error)
+#    w += eta * error * w
+    w += eta * error
 
 for x, _ in training_data:
     result = dot(x, w)
