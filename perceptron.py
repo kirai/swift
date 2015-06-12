@@ -1,5 +1,5 @@
+# XOR perceptron
 from random import choice
-
 from numpy import array, dot, random
 
 step_function = lambda x: 0 if x < 0 else 1
@@ -14,7 +14,6 @@ training_data = [
 ]
 
 w = random.rand(3)
-
 errors = []
 eta = 0.1
 n = 100
