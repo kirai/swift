@@ -1,3 +1,5 @@
+
+#test of genkiness
 #yes!
 # XOR perceptron
 from random import choice
